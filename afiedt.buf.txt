@@ -1,0 +1,9 @@
+declare
+a number;
+b number;
+begin
+a:=&a;
+b:=&b;
+dbms_output.put_line(a+b);
+end;
+/
